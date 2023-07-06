@@ -41,3 +41,9 @@ console.log(n+" "+"Soumita")
 var n="            Ruban         "
 console.log(n.trim())
 
+/*Program to print any string using for loop*/
+
+var n="Ruban"
+for(let i=0;i<n.length;i++){
+    console.log(n[i]+"")
+}

@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    height: 50px;
+}
+
+.navbar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: gray;
+}
+
+.navbar ul li{
+    list-style-type: none;
+}

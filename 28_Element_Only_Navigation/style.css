@@ -1,0 +1,14 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header ul{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+
+header ul li{
+    list-style-type: none;
+}

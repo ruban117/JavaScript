@@ -11,7 +11,13 @@ console.log(localStorage.key(3))
 
 console.log(localStorage.length)
 
-localStorage.one=1
 
+window.onstorage=(e)=>{
+    alert("Changed")
+    console.log(e)
+}
+
+localStorage.one=1
 delete localStorage.one
 localStorage.clear()
+
